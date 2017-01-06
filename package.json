@@ -40,6 +40,8 @@
     "babel-preset-react": "^6.11.1",
     "babel-preset-react-optimize": "^1.0.1",
     "babel-preset-stage-0": "^6.5.0",
+    "css-loader": "^0.26.1",
+    "style-loader": "^0.31.1",
     "cross-env": "^2.0.1",
     "eslint": "^3.5.0",
     "eslint-import-resolver-webpack": "^0.6.0",
@@ -63,7 +65,7 @@
     "host": "localhost",
     "port": 3000,
     "ghooks": {
-      "pre-commit": "" 
+      "pre-commit": "npm run lint" 
     }
   }
 }

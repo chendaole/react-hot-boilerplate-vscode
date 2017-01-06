@@ -30,6 +30,9 @@ module.exports = {
             test: /\.jsx?$/,
             loaders: ['babel?retainLines=true'],
             include: path.join(__dirname, 'src')
+        }, {
+            test: /\.css$/,
+            loader: 'style!css'
         }]
     }
 };
