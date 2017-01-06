@@ -1,9 +1,17 @@
 import React from 'react'
+import TabsBar from './components/TabsBar.jsx';
+
+const list = [{ text: '12' }, {text: '1122'}]
 
 const App = () => (
     <div>
-        hello world!
-    </div>  
-)
+        <TabsBar
+            list={list}
+            color={''}
+            selectedColor={''}
+            backgroundColor={''}
+            />
+    </div>
+);
 
 export default App
