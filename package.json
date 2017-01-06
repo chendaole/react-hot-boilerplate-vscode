@@ -63,7 +63,7 @@
     "host": "localhost",
     "port": 3000,
     "ghooks": {
-     // "pre-commit": "npm run lint" 
+      "pre-commit": "" 
     }
   }
 }
